@@ -1,0 +1,42 @@
+.landingPage {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+.tabbar {
+  width: 100vw;
+  background-color: #fe92ed;
+  display: flex;
+  justify-content: flex-end;
+}
+.tabbar img {
+  height: 1rem;
+  margin: 3px;
+  margin-right: 20px;
+}
+
+.navbar {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 15px;
+  width: 30vw;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar h2 {
+  margin: 0;
+  padding: 0;
+  font-weight: 80;
+}
+.navbar p {
+  margin: 0;
+  padding: 0;
+}
+.hero img {
+  width: 100%;
+  margin-top: 25px;
+}
