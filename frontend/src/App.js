@@ -2,6 +2,7 @@ import "./App.css";
 import Navbar from "./components/navbar";
 import Landing from "./pages/landing";
 import Me from "./pages/me";
+import Work from "./pages/work";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Landing />
       <Me />
+      <Work />
     </>
   );
 }
