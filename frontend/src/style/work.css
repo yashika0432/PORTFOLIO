@@ -7,10 +7,67 @@
   margin: 0;
   padding: 0;
   display: flex;
+  width: 100vw;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid black;
 }
 .rightimg {
   padding-right: 3rem;
+}
+
+.mainsection {
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+}
+.arrup {
+  margin: 2rem;
+}
+.drop {
+  left: 32rem;
+  top: 5rem;
+}
+.work {
+  position: absolute;
+  margin: 2rem 5rem;
+}
+.Poster {
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.Web {
+  top: 6rem;
+  left: 27%;
+  z-index: 2;
+}
+.App {
+  top: 12rem;
+  right: 0;
+  z-index: 3;
+}
+.el {
+  position: absolute;
+}
+.curarr {
+  left: 48rem;
+  top: 4rem;
+  z-index: 4;
+}
+.star {
+  left: 54rem;
+  top: 2rem;
+  z-index: 5;
+}
+.arrdown {
+  right: 0;
+  margin-right: 2rem;
+  top: 21rem;
+}
+.zig {
+  top: 21rem;
+}
+.lines {
+  top: 29rem;
+  left: 38rem;
 }
