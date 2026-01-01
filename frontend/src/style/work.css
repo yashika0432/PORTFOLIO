@@ -1,0 +1,16 @@
+.worksection {
+  width: 100%;
+  height: auto;
+}
+
+.access {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+}
+.rightimg {
+  padding-right: 3rem;
+}
