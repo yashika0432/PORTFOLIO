@@ -21,6 +21,9 @@ function Work() {
             <img src="/zigzag.png" alt="" className="zig el"></img>
             <img src="/lines.png" alt="" className="lines el"></img>
           </div>
+          <div className="webdev">
+            <h2>Web Dev</h2>
+          </div>
         </div>
       </section>
     </div>
