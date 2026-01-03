@@ -20,6 +20,12 @@ function Contact() {
           </h1>
         </div>
       </div>
+      <div className="mid">
+        <img src="/env.png" alt=""></img>
+      </div>
+      <div className="heading2">
+        <h1>a wrap</h1>
+      </div>
     </div>
   );
 }
