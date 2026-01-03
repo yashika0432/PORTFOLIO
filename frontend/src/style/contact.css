@@ -1,0 +1,20 @@
+.endpart {
+  margin: 7rem 5rem;
+}
+.upper {
+  display: flex;
+  justify-content: space-between;
+}
+.contactlink {
+  display: flex;
+  flex-direction: column;
+}
+.link1,
+.link2 {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.headings p {
+  font-size: 150px;
+}

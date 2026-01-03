@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./components/navbar";
+import Contact from "./pages/contact";
 import Landing from "./pages/landing";
 import Me from "./pages/me";
 import Work from "./pages/work";
@@ -14,6 +15,7 @@ function App() {
       <Landing />
       <Me />
       <Work />
+      <Contact />
     </>
   );
 }
