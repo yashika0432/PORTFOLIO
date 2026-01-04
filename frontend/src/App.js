@@ -1,22 +1,16 @@
 import "./App.css";
-import Navbar from "./components/navbar";
-import Contact from "./pages/contact";
+import { Routes, Route } from "react-router-dom";
 import Landing from "./pages/landing";
-import Me from "./pages/me";
-import Work from "./pages/work";
+import PosterWork from "./pages/posters";
 
 function App() {
   return (
-    <>
-      <div className="tabbar">
-        <img src="/tab icon.png" alt="tab icon" />
-      </div>
-      <Navbar />
-      <Landing />
-      <Me />
-      <Work />
-      <Contact />
-    </>
+    <div>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/posters" element={<PosterWork />} />
+      </Routes>
+    </div>
   );
 }
 

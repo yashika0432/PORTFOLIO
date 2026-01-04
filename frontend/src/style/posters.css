@@ -1,0 +1,60 @@
+.work1 {
+  margin: 0;
+  padding: 0;
+}
+.tabposters {
+  width: 100vw;
+  background-color: #b4f200;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tabposters p {
+  font-weight: 500;
+  font-size: 13px;
+  padding: 5px;
+}
+.tabposters img {
+  height: 1.1rem;
+  margin-right: 20px;
+}
+
+.mainpart {
+  position: relative;
+  background-color: #b4f200;
+  margin: auto;
+  margin-top: 4rem;
+  width: 900px;
+  height: 690px;
+  border-radius: 18px;
+  border: 4px solid #b8b8b8;
+}
+
+.parts {
+  position: absolute;
+}
+.iconDialog {
+  z-index: 1;
+  left: 12%;
+  top: 40%;
+}
+.boxes {
+  top: 90%;
+  left: 5%;
+}
+.hoverhere {
+  height: 100px;
+  z-index: 1;
+  left: 20%;
+  top: 25%;
+}
+.pen {
+  right: 0;
+  z-index: 1;
+  top: 45%;
+}
+.workRightBlock {
+  right: 30px;
+  z-index: 2;
+}

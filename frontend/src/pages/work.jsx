@@ -1,4 +1,5 @@
 import "../style/work.css";
+import { Link } from "react-router-dom";
 
 function Work() {
   return (
@@ -11,7 +12,9 @@ function Work() {
         <div className="mainsection">
           <div className="uiUx">
             <img src="/arrowUp.png" alt="" className="arrup el"></img>
-            <img src="/posterwork.png" alt="" className="Poster work"></img>
+            <Link to="/posters">
+              <img src="/posterwork.png" alt="" className="Poster work"></img>
+            </Link>
             <img src="/drop.png" alt="" className="drop el"></img>
             <img src="/webwork.png" alt="" className="Web work"></img>
             <img src="/curve.png" alt="" className="curarr el"></img>
