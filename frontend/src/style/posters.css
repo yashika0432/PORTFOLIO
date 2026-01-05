@@ -58,3 +58,7 @@
   right: 30px;
   z-index: 2;
 }
+.photo1 {
+  z-index: 3;
+  margin: auto;
+}

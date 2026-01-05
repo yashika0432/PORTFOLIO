@@ -9,6 +9,7 @@ function PosterWork() {
       </div>
       <div className="workspacePoster">
         <img src="/dialog.png" className="parts iconDialog" alt="" />
+        <img src="/headUp.png" className="photo1 parts" alt=""></img>
         <img src="/hovertext.png" className="parts hoverhere" alt="" />
         <img src="/box.png" className="parts boxes" alt="" />
         <img src="/pen.png" className="parts pen" alt="" />
