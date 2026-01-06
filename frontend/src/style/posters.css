@@ -71,43 +71,77 @@
   margin: auto;
   margin-bottom: 0;
   transition: transform 0.8s ease;
-  z-index: 2;
+  z-index: 100;
 }
 .photo2 {
   width: 700px;
   margin: auto;
   margin-top: 0;
   transition: transform 0.8s ease;
-  z-index: 2;
+  z-index: 100;
 }
 
 .posts {
   margin: auto;
   margin-top: 0;
   margin-bottom: 0;
-  overflow: hidden;
+
   width: 150px;
   opacity: 1;
-  height: 0;
+  height: 0px;
   transition: height 0.4s ease;
 }
 .posts img {
-  position: absolute;
+  position: relative;
   opacity: 0;
   z-index: 1;
   transition: transform 0.8s ease;
 }
 
 .splitWrapper:hover .photo1 {
-  transform: translateY(-60px);
+  transform: translateY(-30px);
 }
 
 .splitWrapper:hover .photo2 {
-  transform: translateY(80px);
+  transform: translateY(30px);
 }
-/* .splitWrapper:hover .posts {
+.splitWrapper:hover .posts {
   height: 120px;
-} */
+}
 .splitWrapper:hover .posts img {
   opacity: 1;
+  transform: scale(1.1);
+}
+
+.posts img:nth-child(1) {
+  left: -100px;
+  top: -40px;
+  rotate: 11deg;
+}
+.posts img:nth-child(2) {
+  top: -320px;
+  rotate: 6deg;
+  z-index: 3;
+}
+.posts img:nth-child(3) {
+  left: 60px;
+  top: -550px;
+  rotate: -4deg;
+  z-index: 2;
+}
+.posts img:nth-child(4) {
+  left: 80px;
+  top: -600px;
+  rotate: 8deg;
+  z-index: 1;
+}
+.posts img:nth-child(5) {
+  left: 130px;
+  top: -830px;
+  rotate: -6deg;
+}
+.posts img:nth-child(6) {
+  left: 190px;
+  top: -1090px;
+  rotate: -6deg;
 }
