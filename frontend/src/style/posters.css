@@ -71,19 +71,21 @@
 }
 
 .photo1 {
+  position: relative;
   width: 700px;
   margin: 0 auto;
   margin-bottom: 0;
   transition: transform 0.8s ease;
-  z-index: 100;
+  z-index: 20;
   border: 1px solid black;
 }
 .photo2 {
+  position: relative;
   width: 700px;
   margin: 0 auto;
   margin-top: 0;
   transition: transform 0.8s ease;
-  z-index: 100;
+  z-index: 20;
   border: 1px solid black;
 }
 
@@ -129,7 +131,7 @@
   --x: -100px;
   --y: -190px;
   --r: 11deg;
-  z-index: 1;
+  z-index: 10;
 }
 
 .posts img:nth-child(2) {
