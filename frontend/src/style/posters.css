@@ -135,50 +135,50 @@
 }
 
 .posts img:nth-child(2) {
-  --x: 0px;
-  --y: -320px;
+  --x: -25px;
+  --y: -420px;
   --r: 6deg;
-  z-index: 4;
+  z-index: 12;
 }
 
 .posts img:nth-child(3) {
-  --x: 60px;
-  --y: -550px;
+  --x: 50px;
+  --y: -650px;
   --r: -4deg;
-  z-index: 3;
+  z-index: 11;
 }
 
 .posts img:nth-child(4) {
-  --x: 80px;
-  --y: -600px;
+  --x: 100px;
+  --y: -720px;
   --r: 8deg;
   z-index: 2;
 }
 
 .posts img:nth-child(5) {
-  --x: 130px;
-  --y: -830px;
+  --x: 160px;
+  --y: -950px;
   --r: -6deg;
-  z-index: 1;
+  z-index: 3;
 }
 
 .posts img:nth-child(6) {
-  --x: 190px;
-  --y: -1090px;
+  --x: 180px;
+  --y: -1200px;
   --r: -6deg;
-  z-index: 1;
+  z-index: 4;
 }
 
 .posts img:nth-child(7) {
   --x: 150px;
-  --y: -1290px;
+  --y: -1390px;
   --r: -6deg;
-  z-index: 1;
+  z-index: 5;
 }
 
 .posts img:nth-child(8) {
-  --x: -60px;
-  --y: -1390px;
+  --x: -100px;
+  --y: -1480px;
   --r: -6deg;
-  z-index: 1;
+  z-index: 11;
 }
