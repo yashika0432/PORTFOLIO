@@ -77,7 +77,6 @@
   margin-bottom: 0;
   transition: transform 0.8s ease;
   z-index: 20;
-  border: 1px solid black;
 }
 .photo2 {
   position: relative;
@@ -86,7 +85,6 @@
   margin-top: 0;
   transition: transform 0.8s ease;
   z-index: 20;
-  border: 1px solid black;
 }
 
 .posts {
@@ -181,4 +179,9 @@
   --y: -1480px;
   --r: -6deg;
   z-index: 11;
+}
+.posts img:hover {
+  transform: translate(var(--x), var(--y)) rotate(var(--r)) scale(1.35);
+  z-index: 50;
+  filter: brightness(1.05) contrast(1.1);
 }
