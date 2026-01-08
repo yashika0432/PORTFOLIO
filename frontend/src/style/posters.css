@@ -1,6 +1,7 @@
 .work1 {
   margin: 0;
   padding: 0;
+  overflow-y: hidden;
 }
 
 .tabposters {
@@ -77,6 +78,7 @@
   margin-bottom: 0;
   transition: transform 0.8s ease;
   z-index: 20;
+  pointer-events: none;
 }
 .photo2 {
   position: relative;
@@ -85,6 +87,7 @@
   margin-top: 0;
   transition: transform 0.8s ease;
   z-index: 20;
+  pointer-events: none;
 }
 
 .posts {
@@ -95,7 +98,6 @@
   width: 150px;
   height: 0;
   overflow: visible;
-  pointer-events: none;
 }
 .posts img {
   position: relative;
@@ -103,7 +105,8 @@
   --x: 0px;
   --y: 0px;
   --r: 0deg;
-  --s: 0.9;
+  --s: 1.1;
+
   transform: translate(var(--x), var(--y)) rotate(var(--r)) scale(var(--s));
   transition: transform 0.8s ease, opacity 0.4s ease;
 }
@@ -180,8 +183,8 @@
   --r: -6deg;
   z-index: 11;
 }
+
 .posts img:hover {
-  transform: translate(var(--x), var(--y)) rotate(var(--r)) scale(1.35);
-  z-index: 50;
-  filter: brightness(1.05) contrast(1.1);
+  transform: translate(var(--x), var(--y)) rotate(var(--r)) scale(1.5);
+  z-index: 200;
 }

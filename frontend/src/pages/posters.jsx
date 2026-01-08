@@ -22,14 +22,16 @@ function PosterWork() {
           <img src="/headUp.png" className="photo1 imgsplit" alt=""></img>
 
           <div className="posts">
-            <img src="/f1.png" alt=""></img>
-            <img src="/thumbnail.png" alt=""></img>
-            <img src="/thumbnail2.png" alt=""></img>
-            <img src="/f1cards.png" alt=""></img>
-            <img src="/f1Poster.png" alt=""></img>
-            <img src="/thumbnail3.png" alt=""></img>
-            <img src="/ad.png" alt=""></img>
-            <img src="/ad2.png" alt=""></img>
+            <div className="postsInner">
+              <img src="/f1.png" alt=""></img>
+              <img src="/thumbnail.png" alt=""></img>
+              <img src="/thumbnail2.png" alt=""></img>
+              <img src="/f1cards.png" alt=""></img>
+              <img src="/f1Poster.png" alt=""></img>
+              <img src="/thumbnail3.png" alt=""></img>
+              <img src="/ad.png" alt=""></img>
+              <img src="/ad2.png" alt=""></img>
+            </div>
           </div>
 
           <img src="/headDown.png" className="photo2 imgsplit" alt=""></img>
