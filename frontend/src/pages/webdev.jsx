@@ -1,7 +1,7 @@
 import "../style/webdev.css";
 
 function Webdevelopment() {
-  return <></>;
+  return <>website</>;
 }
 
 export default Webdevelopment;

@@ -16,7 +16,9 @@ function Work() {
               <img src="/posterwork.png" alt="" className="Poster work"></img>
             </Link>
             <img src="/drop.png" alt="" className="drop el"></img>
-            <img src="/webwork.png" alt="" className="Web work"></img>
+            <Link to="/webdev">
+              <img src="/webwork.png" alt="" className="Web work"></img>
+            </Link>
             <img src="/curve.png" alt="" className="curarr el"></img>
             <img src="/STARS.png" alt="" className="star el"></img>
             <img src="/appwork.png" alt="" className="App work"></img>
