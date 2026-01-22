@@ -1,0 +1,17 @@
+.tabwebdev {
+  width: 100vw;
+  background-color: #f7df1e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tabwebdev p {
+  font-weight: 500;
+  font-size: 13px;
+  margin-left: 0;
+  padding: 5px;
+}
+.tabwebdev img {
+  height: 1.1rem;
+  margin-right: 15px;
+}
