@@ -7,6 +7,7 @@ function Webdevelopment() {
         <p>Website UI/UX</p>
         <img src="/tab icon.png" alt="tab icon" />
       </div>
+      <h1 className="mainhead">My Projects</h1>
     </div>
   );
 }
