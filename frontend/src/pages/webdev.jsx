@@ -21,6 +21,7 @@ function Webdevelopment() {
               disturb the one having autism.<br></br> For better visuals click
               the folder.
             </p>
+            <div className="folderimg"></div>
           </div>
         </div>
       </div>
