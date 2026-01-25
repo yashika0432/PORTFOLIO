@@ -27,6 +27,9 @@
 .allprojects {
   border: 1px solid black;
   margin: 0 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
 }
 .projectdetail {
   margin: 0 150px;
@@ -45,6 +48,15 @@
   flex-direction: column;
   gap: 30px;
 }
+.eyewatchPj {
+  background-color: black;
+  border: 3px solid #c3c3c3;
+  border-radius: 23px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
 .projectSerial {
   background-color: #f7df1e;
   font-family: "Pinyon Script", cursive;
@@ -53,4 +65,19 @@
   width: 240px;
   height: 80px;
   z-index: 2;
+}
+
+.pj1style {
+  position: absolute;
+  top: 15rem;
+  left: 68rem;
+}
+.pj2style {
+  position: absolute;
+  top: 60rem;
+  left: 68rem;
+}
+.Projectsindv {
+  display: flex;
+  gap: 0;
 }

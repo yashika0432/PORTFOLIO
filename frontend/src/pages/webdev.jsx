@@ -23,7 +23,26 @@ function Webdevelopment() {
             </p>
             <div className="folderimg"></div>
           </div>
-          <div></div>
+          <div className="pj1style">
+            <img src="/STYLE1.png" alt=""></img>
+          </div>
+        </div>
+        <div className="eyewatchDes">
+          <div className="projectSerial">002.</div>
+          <div className="projectdetail eyewatchPj">
+            <img src="/eyewatchPic.png" alt=""></img>
+            <p style={{ color: "#CC1E1D" }}>
+              EYEWATCH is an horror movie/series streaming website with
+              aesthetic visuals and numerous options. Here you can stream your
+              favorite visuals while being in the spooky/horror theme. Dark mode
+              of the web makes much more sense with the content.<br></br>For
+              better visuals click the folder.
+            </p>
+            <div className="folderimg"></div>
+          </div>
+          <div className="pj2style">
+            <img src="/STYLE2.png" alt=""></img>
+          </div>
         </div>
       </div>
     </div>
