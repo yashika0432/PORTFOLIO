@@ -44,6 +44,41 @@ function Webdevelopment() {
             <img src="/STYLE2.png" alt=""></img>
           </div>
         </div>
+        <div className="PestoDes">
+          <div className="projectSerial">003.</div>
+          <div className="projectdetail PestoPj">
+            <img src="/pestoPic.png" alt=""></img>
+            <p style={{ color: "white" }}>
+              Pesto is a place to find a job or to give one. This is the
+              platform if you need fast and affordable outcomes in just few
+              steps. Unlike other websites the reply and hiring rate on this is
+              much better. For those with real talent and struggling for a job,
+              this site might do the work.<br></br> For better visuals click the
+              folder
+            </p>
+            <div className="folderimg"></div>
+          </div>
+          <div className="pj3style">
+            <img src="/STYLE3.png" alt=""></img>
+          </div>
+        </div>
+        <div className="gymDes">
+          <div className="projectSerial">004.</div>
+          <div className="projectdetail gymPj">
+            <img src="/gymPic.png" alt=""></img>
+            <p>
+              Gymkiosk is for gym rats who are also consistent about their
+              health logs - Calories burnt, time spent at gym, schedules and
+              etc. This web provides you a complete lookout for your and also
+              lets you manage your gym streak by keeping you engaged through the
+              process.<br></br>For better visuals click the folder
+            </p>
+            <div className="folderimg"></div>
+          </div>
+          <div className="pj4style">
+            <img src="/STYLE4.png" alt=""></img>
+          </div>
+        </div>
       </div>
     </div>
   );

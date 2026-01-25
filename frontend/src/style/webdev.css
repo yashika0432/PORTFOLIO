@@ -57,6 +57,24 @@
   flex-direction: column;
   gap: 30px;
 }
+.PestoPj {
+  background-color: #ba98ff;
+  border: 3px solid #c3c3c3;
+  border-radius: 23px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.gymPj {
+  background-color: #afe39f;
+  border: 3px solid #c3c3c3;
+  border-radius: 23px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
 .projectSerial {
   background-color: #f7df1e;
   font-family: "Pinyon Script", cursive;
@@ -75,6 +93,16 @@
 .pj2style {
   position: absolute;
   top: 60rem;
+  left: 68rem;
+}
+.pj3style {
+  position: absolute;
+  top: 105rem;
+  left: 68rem;
+}
+.pj4style {
+  position: absolute;
+  top: 149rem;
   left: 68rem;
 }
 .Projectsindv {
