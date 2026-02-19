@@ -1,0 +1,19 @@
+.tabappui {
+  width: 100vw;
+  background-color: #f15a27;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tabappui p {
+  font-weight: 500;
+  font-size: 13px;
+
+  padding: 5px;
+}
+.tabappui img {
+  height: 1.1rem;
+  margin-right: 15px;
+  z-index: 3;
+}

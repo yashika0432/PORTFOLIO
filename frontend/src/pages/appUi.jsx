@@ -1,12 +1,13 @@
+import "../style/appui.css";
+
 function AppDev() {
   return (
     <div>
-      <h1>Appdev work</h1>
-      <div className="navbar"></div>
-      <div className="mainpart"></div>
-      <div className="part2"></div>
-
-      <div>app development works of ui ux</div>
+      <div className="tabappui">
+        <p>App UI/UX</p>
+        <img src="/tab icon.png" alt="tab icon" />
+      </div>
+      <h1 className="mainhead">My Projects</h1>
     </div>
   );
 }

@@ -21,7 +21,10 @@ function Work() {
             </Link>
             <img src="/curve.png" alt="" className="curarr el"></img>
             <img src="/STARS.png" alt="" className="star el"></img>
-            <img src="/appwork.png" alt="" className="App work"></img>
+            <Link to="/appdev">
+              <img src="/appwork.png" alt="" className="App work"></img>
+            </Link>
+
             <img src="/arrowDown.png" alt="" className="arrdown el"></img>
             <img src="/zigzag.png" alt="" className="zig el"></img>
             <img src="/lines.png" alt="" className="lines el"></img>
