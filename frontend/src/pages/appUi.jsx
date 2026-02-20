@@ -19,6 +19,19 @@ function AppDev() {
             It provides feature like controlling your device, tracking it,
             scheduling next flight etc.
           </p>
+          <img src="/mobileApp1.png" alt=""></img>
+        </div>
+        <div className="secondApp">
+          <h1>002.</h1>
+          <h2>Vedapath</h2>
+          <p>
+            Mythological gateway straight from your screen. All tales direct
+            from original scriptures and vedas. Available in more than one
+            language for the efficiency of the user, with a UI that makes it
+            easy to navigate.<br></br> Additionally, motivational and calming
+            stories depending on user’s mood after asking them.
+          </p>
+          <img src="/mobileApp2.png" alt=""></img>
         </div>
       </div>
     </div>
