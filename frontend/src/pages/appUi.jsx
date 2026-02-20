@@ -12,6 +12,13 @@ function AppDev() {
         <div className="firstApp">
           <h1>001.</h1>
           <h2>Drone Sewa</h2>
+          <p>
+            App objectives are to control the drone and make the software easy
+            to handle. Making it efficient for the user to work and for the
+            hardware to get the desired information without any hassle.<br></br>{" "}
+            It provides feature like controlling your device, tracking it,
+            scheduling next flight etc.
+          </p>
         </div>
       </div>
     </div>
