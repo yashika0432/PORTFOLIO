@@ -35,3 +35,11 @@
   background-repeat: no-repeat;
   overflow: visible;
 }
+
+.usernames {
+  display: flex;
+  flex-direction: column;
+  margin-left: 950px;
+  margin-top: 540px;
+  font-size: 14px;
+}
