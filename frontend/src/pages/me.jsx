@@ -33,7 +33,7 @@ export default function Me() {
             </p>
           </div>
           <div className="texts">
-            <p>
+            <p className="secondPara">
               With a blend of design thinking and engineering skills, I create
               products that look great, feel effortless, and work
               flawlessly—from the first wireframe to full deployment. Graduating
@@ -44,10 +44,7 @@ export default function Me() {
           <div className="sets">
             <h1>Skills</h1>
             <div className="data">
-              <div
-                className="des"
-                style={{ width: "50vw", borderRight: "2px solid #B8B8B8" }}
-              >
+              <div className="des" style={{ width: "50vw" }}>
                 <h3>UI/UX</h3>
                 <ul>
                   <li>UX Research</li>
