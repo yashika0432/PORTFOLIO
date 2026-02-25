@@ -14,6 +14,7 @@ export default function Landing() {
         </div>
         <Navbar />
         <div className="hero">
+          <img src="hero.png" alt=""></img>
           <div className="usernames">
             <div className="behance">
               <a href="https://www.behance.net/yashikasharma68" target="_blank">

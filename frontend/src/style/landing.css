@@ -28,8 +28,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("/public/HERO.png");
-  background-position: center;
+
   position: relative;
   min-height: 130vh;
   background-repeat: no-repeat;
@@ -55,12 +54,13 @@
   }
 
   .hero {
-    justify-content: center;
     margin: 0;
-    padding: 0;
-    max-width: 100vw;
-    background-size: 100% auto;
+    overflow: hidden;
     border: 1px solid black;
+  }
+  .hero img {
+    display: block;
+    width: 100%;
   }
 
   .tabbar img {
@@ -74,9 +74,7 @@
     overflow-x: hidden;
   }
   .usernames {
-    font-size: 11px;
-    margin-left: auto;
-    margin-right: auto;
+    display: none;
   }
 
   .hero {
