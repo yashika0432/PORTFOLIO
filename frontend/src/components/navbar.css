@@ -1,18 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-  width: 100vw;
-  height: 100vh;
+
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
   overflow-y: auto;
 }
-
-/* .mainNav {
-  position: sticky;
-  top: 0;
-  background: white;
-} */
 
 .mainNav {
   position: sticky;

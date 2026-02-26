@@ -1,5 +1,5 @@
 .endpart {
-  margin: 0rem 5rem;
+  margin: 4rem 5rem;
 }
 .upper {
   display: flex;
@@ -42,9 +42,64 @@
   line-height: 80%;
   color: #f15a27;
 }
-.mid {
+.mid img {
   position: absolute;
-  margin-top: -280px;
+  margin-top: -200px;
   justify-content: center;
   z-index: 1;
+}
+
+/* mobile adjustments */
+@media (max-width: 768px) {
+  .endpart {
+    margin: 0;
+  }
+  .contactlink img {
+    width: 10%;
+  }
+  .contactlink div {
+    font-size: 10px;
+  }
+
+  .upper {
+    padding-top: 3rem;
+    align-items: center;
+    gap: 0rem;
+  }
+  .link1,
+  .link2 {
+    font-size: 18px;
+    gap: 0rem;
+    padding-left: 1rem;
+  }
+  .heading1 h1 {
+    font-size: 100px;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+  }
+  .heading2 {
+    margin-top: 75%;
+  }
+  .heading2 h1 {
+    font-size: 100px;
+  }
+  .mid img {
+    margin-top: 30%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .link1,
+  .link2 {
+    font-size: 16px;
+  }
+  .heading1 h1,
+  .heading2 h1 {
+    font-size: 80px;
+  }
+  .mid {
+    margin-top: -150px;
+  }
 }

@@ -81,6 +81,9 @@
   color: #5a2898;
   font-weight: 600;
 }
+.webdev {
+  margin: 2rem;
+}
 .card {
   display: flex;
   justify-content: space-between;
@@ -114,11 +117,12 @@
     margin: 4rem 0rem;
   }
   .rightimg {
+    padding: 0;
     width: 20%;
   }
   .uiUx {
     overflow: hidden;
-    border: 1px solid black;
+
     height: 900px;
   }
   .work {
@@ -172,6 +176,9 @@
     overflow: hidden;
   }
 
+  .webdev {
+    padding: 1rem;
+  }
   .webdev h2 {
     font-size: 32px;
   }

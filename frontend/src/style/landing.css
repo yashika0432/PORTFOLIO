@@ -9,7 +9,10 @@
   background-attachment: scroll;
 }
 .homepage {
-  margin: 0rem;
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
 }
 .tabbar {
   width: 100%;
@@ -46,6 +49,11 @@
 
 /* Mobile responsive */
 @media (max-width: 768px) {
+  .landingPage {
+    width: 100%;
+    height: auto;
+  }
+
   .usernames {
     font-size: 4px;
     bottom: 17px;
