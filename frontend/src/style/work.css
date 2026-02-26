@@ -75,9 +75,7 @@
   width: 100%;
   height: 550px;
 }
-.webdev {
-  margin: 2rem 5rem;
-}
+
 .webdev h2 {
   font-size: 40px;
   color: #5a2898;
@@ -107,4 +105,100 @@
 }
 .webfive {
   background-color: #f4511e;
+}
+
+/* mobile overrides */
+@media (max-width: 768px) {
+  .access {
+    align-items: flex-start;
+    margin: 4rem 0rem;
+  }
+  .rightimg {
+    width: 20%;
+  }
+  .uiUx {
+    overflow: hidden;
+    border: 1px solid black;
+    height: 900px;
+  }
+  .work {
+    width: 80%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    margin: 0;
+    padding: 0;
+
+    align-items: center;
+    justify-content: center;
+  }
+  .drop {
+    left: 1%;
+    top: 66%;
+  }
+  .star {
+    display: none;
+  }
+
+  .curarr {
+    width: 50%;
+    left: 50%;
+    top: 9rem;
+  }
+  .star {
+    left: 60%;
+    top: 2rem;
+  }
+  .arrdown {
+    top: 75%;
+    z-index: 4;
+  }
+  .arrup {
+    display: none;
+  }
+  .zig {
+    width: 25%;
+    top: 24rem;
+  }
+  .lines {
+    z-index: 4;
+    top: 36rem;
+    left: 50%;
+  }
+  .Web {
+    border: 1px solid black;
+    margin-right: 80px;
+    overflow: hidden;
+  }
+
+  .webdev h2 {
+    font-size: 32px;
+  }
+  .card p {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 480px) {
+  .access {
+    padding: 0 1rem;
+  }
+  .Poster {
+    left: 5%;
+  }
+  .Web {
+    top: 6rem;
+    left: 25%;
+  }
+  .App {
+    top: 12rem;
+    right: 5%;
+  }
+  .webdev h2 {
+    font-size: 28px;
+  }
+  .card p {
+    font-size: 40px;
+  }
 }
