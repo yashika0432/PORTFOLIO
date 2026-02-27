@@ -17,14 +17,13 @@
 .tabbar {
   width: 100%;
   background-color: #fe92ed;
-
   display: flex;
+  align-items: center;
   justify-content: flex-end;
 }
 .tabbar img {
-  height: fit-content;
-  margin: 3px;
-  margin-right: 20px;
+  padding: 3px;
+  height: 30px;
 }
 .hero img {
   width: 100%;
@@ -74,18 +73,12 @@
   }
 }
 
-.tabbar img {
-  height: 0.9rem;
-  margin-right: 15px;
-}
-
 @media (max-width: 480px) {
   .landingPage {
     overflow-x: hidden;
   }
 
   .tabbar img {
-    height: 0.8rem;
-    margin-right: 10px;
+    height: 1.2rem;
   }
 }
