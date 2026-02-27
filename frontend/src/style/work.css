@@ -23,12 +23,14 @@
   margin: 2rem;
 }
 .drop {
-  left: 32rem;
-  top: 5rem;
+  z-index: 6;
+  left: 38%;
+  top: 18%;
 }
 .work {
+  width: 30%;
   position: absolute;
-  margin: 2rem 5rem;
+  margin: 5rem 9rem;
 }
 .Poster {
   top: 0;
@@ -49,31 +51,37 @@
   position: absolute;
 }
 .curarr {
-  left: 48rem;
-  top: 4rem;
+  width: 15%;
+  left: 60%;
+  top: 8%;
   z-index: 4;
 }
 .star {
-  left: 54rem;
-  top: 2rem;
-  z-index: 5;
+  width: 3%;
+  top: 2%;
+  left: 68%;
+  z-index: 6;
 }
 .arrdown {
   right: 0;
+  width: 2%;
   margin-right: 2rem;
   top: 21rem;
 }
 .zig {
   top: 21rem;
+  width: 8%;
 }
 .lines {
-  top: 29rem;
-  left: 38rem;
+  z-index: 6;
+  bottom: 9%;
+  left: 50%;
+  width: 12%;
 }
 .uiUx {
   position: relative;
   width: 100%;
-  height: 550px;
+  height: 700px;
 }
 
 .webdev h2 {
@@ -157,6 +165,7 @@
   .arrdown {
     top: 75%;
     z-index: 4;
+    width: 5%;
   }
   .arrup {
     display: none;
@@ -167,8 +176,9 @@
   }
   .lines {
     z-index: 4;
-    top: 36rem;
+    top: 35rem;
     left: 50%;
+    width: 40%;
   }
   .Web {
     border: 1px solid black;

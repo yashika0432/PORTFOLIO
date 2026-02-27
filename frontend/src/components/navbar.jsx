@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <div className="mainNav">
       <div className="navbar">
-        <img src="/vector.png" alt="" style={{ height: "1.5rem" }}></img>
+        <img src="/vector.png" alt=""></img>
         <h2>|</h2>
         <p>File</p>
         <p>Me</p>

@@ -1,5 +1,5 @@
 .me {
-  margin: 6rem 4rem;
+  margin: 6rem 6rem;
   width: auto;
 }
 .texts {
@@ -32,6 +32,9 @@
   display: flex;
   justify-content: center;
 }
+.right img {
+  width: 100%;
+}
 .container {
   display: flex;
   align-items: flex-start;
@@ -47,7 +50,7 @@ h3 {
   color: #9767f9;
 }
 p {
-  font-size: 19px;
+  font-size: 25px;
 
   line-height: 117.6%;
   margin: 0;
@@ -61,7 +64,7 @@ p {
 }
 
 li {
-  font-size: 16px;
+  font-size: 25px;
   font-weight: 400;
   text-align: left;
 

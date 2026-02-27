@@ -20,13 +20,7 @@ export default function Me() {
               <h1>Yashika Sharma</h1>
             </div>
 
-            <p
-              style={{
-                fontSize: "19px",
-                lineHeight: "117.6%",
-                margin: 0,
-              }}
-            >
+            <p>
               Hello, I am Yashika, a UI/UX designer and full stack developer who
               loves turning --ideas into intuitive, functional, meaningful and
               pleasing digital experiences

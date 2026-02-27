@@ -7,11 +7,18 @@ function Contact() {
         <div className="contactlink">
           <div className="link1">
             <img src="/gmail.png" alt=""></img>
-            Yashika9654@gmail.com
+            <a href="mailto:yashika9654@gmail.com" target="_blank">
+              Yashika9654@gmail.com
+            </a>
           </div>
           <div className="link2">
             <img src="/linkedin.png" alt=""></img>
-            Yashika Sharma
+            <a
+              href="https://www.linkedin.com/in/yashika-sharma-81110a291/"
+              target="_blank"
+            >
+              Yashika Sharma
+            </a>
           </div>
         </div>
         <div className="heading1">
