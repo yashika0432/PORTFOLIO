@@ -5,7 +5,7 @@
 }
 
 .tabposters {
-  width: 100vw;
+  width: 100%;
   background-color: #b4f200;
   display: flex;
   justify-content: space-between;
@@ -19,7 +19,7 @@
   padding: 5px;
 }
 .tabposters img {
-  height: 1.1rem;
+  height: 1.5rem;
   margin-right: 15px;
 }
 
@@ -27,42 +27,44 @@
   position: absolute;
 }
 .iconDialog {
+  width: 6%;
   z-index: 1;
-  left: 12%;
-  top: 40%;
+  left: 15%;
+  top: 30%;
 }
 .boxes {
-  top: 90%;
+  top: 70%;
   left: 5%;
 }
 .hoverhere {
-  height: 100px;
+  height: 150px;
+
   z-index: 1;
-  left: 20%;
+  left: 25%;
   top: 25%;
 }
 .pen {
-  right: 0;
+  right: 10%;
   z-index: 1;
   top: 45%;
 }
 .properties-panel {
   position: absolute;
   top: 90px;
-  right: 45px;
+  right: 10%;
   z-index: 1000;
 }
 
 .splitWrapper {
   position: relative;
-  width: 900px;
+  width: 1200px;
 
   height: auto;
   min-height: unset;
   margin: 4rem auto;
 
   display: block;
-
+  overflow: visible;
   background-color: #b4f200;
   border-radius: 18px;
   border: 4px solid #b8b8b8;
@@ -93,6 +95,7 @@
 
 .posts {
   position: absolute;
+  z-index: 10;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -109,7 +112,9 @@
   --s: 1.1;
 
   transform: translate(var(--x), var(--y)) rotate(var(--r)) scale(var(--s));
-  transition: transform 0.8s ease, opacity 0.4s ease;
+  transition:
+    transform 0.8s ease,
+    opacity 0.4s ease;
 }
 
 .splitWrapper.open .photo1 {
@@ -186,6 +191,77 @@
 }
 
 .posts img:hover {
-  transform: translate(var(--x), var(--y)) rotate(var(--r)) scale(1.5);
-  z-index: 200;
+  transform: translate(var(--x), var(--y)) rotate(var(--r)) scale(2);
+  z-index: 10000;
+}
+
+/* mobile responsive */
+@media (max-width: 768px) {
+  .tabposters p {
+    font-size: 11px;
+    padding: 3px;
+  }
+  .tabposters img {
+    height: 1.2rem;
+    margin-right: 10px;
+  }
+  .splitWrapper {
+    width: 90%;
+    margin: 2rem auto;
+  }
+  .photo1, .photo2 {
+    width: 90%;
+  }
+  .iconDialog {
+    width: 8%;
+    left: 10%;
+    top: 25%;
+  }
+  .hoverhere {
+    height: 120px;
+    left: 20%;
+    top: 20%;
+  }
+  .pen {
+    right: 5%;
+    top: 40%;
+  }
+  .properties-panel {
+    top: 60px;
+    right: 5%;
+  }
+}
+
+@media (max-width: 480px) {
+  .tabposters p {
+    font-size: 9px;
+  }
+  .tabposters img {
+    height: 1rem;
+  }
+  .splitWrapper {
+    width: 100%;
+    margin: 1rem auto;
+  }
+  .photo1, .photo2 {
+    width: 100%;
+  }
+  .iconDialog {
+    width: 10%;
+    left: 5%;
+    top: 20%;
+  }
+  .hoverhere {
+    height: 100px;
+    left: 15%;
+    top: 18%;
+  }
+  .pen {
+    right: 2%;
+    top: 35%;
+  }
+  .properties-panel {
+    top: 50px;
+    right: 2%;
+  }
 }
