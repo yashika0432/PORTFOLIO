@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .tabposters {
@@ -205,30 +206,49 @@
     height: 1.2rem;
     margin-right: 10px;
   }
+
   .splitWrapper {
+    position: relative;
     width: 90%;
-    margin: 2rem auto;
+
+    height: 600px;
+
+    margin: 5rem auto;
+
+    overflow: visible;
+    background-color: #b4f200;
+    border-radius: 18px;
+    border: 4px solid #b8b8b8;
   }
-  .photo1, .photo2 {
-    width: 90%;
+  .photo1,
+  .photo2 {
+    top: 30%;
+    width: 80%;
   }
   .iconDialog {
-    width: 8%;
-    left: 10%;
-    top: 25%;
+    margin-top: 400px;
+
+    margin-left: 0px;
   }
+
   .hoverhere {
-    height: 120px;
-    left: 20%;
-    top: 20%;
+    margin-top: -88px;
+
+    margin-left: 180px;
+    z-index: 100;
   }
   .pen {
-    right: 5%;
-    top: 40%;
+    display: none;
   }
   .properties-panel {
-    top: 60px;
-    right: 5%;
+    display: none;
+  }
+  .boxes {
+    display: none;
+  }
+  .posts {
+    top: 70%;
+    left: 40%;
   }
 }
 
@@ -243,7 +263,8 @@
     width: 100%;
     margin: 1rem auto;
   }
-  .photo1, .photo2 {
+  .photo1,
+  .photo2 {
     width: 100%;
   }
   .iconDialog {
@@ -251,6 +272,7 @@
     left: 5%;
     top: 20%;
   }
+
   .hoverhere {
     height: 100px;
     left: 15%;
