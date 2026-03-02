@@ -84,26 +84,28 @@
   height: 80px;
   z-index: 2;
 }
-
-.pj1style {
-  position: absolute;
-  top: 15rem;
-  left: 68rem;
-}
-.pj2style {
-  position: absolute;
-  top: 60rem;
-  left: 68rem;
-}
-.pj3style {
-  position: absolute;
-  top: 105rem;
-  left: 68rem;
-}
+.pj1style,
+.pj2style,
+.pj3style,
 .pj4style {
   position: absolute;
-  top: 149rem;
-  left: 68rem;
+
+  top: 0rem;
+
+  right: 0;
+}
+
+.pj1style {
+  top: 15rem;
+}
+.pj2style {
+  top: 80rem;
+}
+.pj3style {
+  top: 140rem;
+}
+.pj4style {
+  top: 200rem;
 }
 .Projectsindv {
   display: flex;
