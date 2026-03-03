@@ -6,7 +6,15 @@ export default function Navbar() {
       <div className="navbar">
         <img src="/vector.png" alt=""></img>
         <h2>|</h2>
-        <p>File</p>
+        <p
+          style={{
+            backgroundColor: "#B4F200",
+            padding: "0.2rem 1rem",
+            borderRadius: "3px",
+          }}
+        >
+          File
+        </p>
         <p>Me</p>
         <p>Work</p>
         <p>Services</p>

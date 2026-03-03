@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   gap: 2rem;
+
   margin-bottom: 1rem;
 }
 .me h1 {
@@ -64,7 +65,7 @@ p {
 }
 
 li {
-  font-size: 25px;
+  font-size: 15px;
   font-weight: 400;
   text-align: left;
 
@@ -79,6 +80,9 @@ li {
 }
 .sw h1 {
   margin-right: 2rem;
+}
+.texts p {
+  font-size: 15px;
 }
 
 /* mobile adjustments */

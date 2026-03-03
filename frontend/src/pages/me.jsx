@@ -1,4 +1,5 @@
 import "../style/me.css";
+import TextType from "./textType";
 
 export default function Me() {
   return (
@@ -17,7 +18,20 @@ export default function Me() {
                   height: "65px",
                 }}
               ></img>
-              <h1>Yashika Sharma</h1>
+              <h1>
+                <TextType
+                  text={["Yashika Sharma"]}
+                  typingSpeed={120}
+                  pauseDuration={2000}
+                  showCursor
+                  cursorCharacter="_"
+                  deletingSpeed={70}
+                  variableSpeedEnabled={false}
+                  variableSpeedMin={60}
+                  variableSpeedMax={120}
+                  cursorBlinkDuration={0.5}
+                />
+              </h1>
             </div>
 
             <p>

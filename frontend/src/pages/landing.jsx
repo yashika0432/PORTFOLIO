@@ -13,6 +13,7 @@ export default function Landing() {
           <img src="/tab icon.png" alt="tab icon" />
         </div>
         <Navbar />
+
         <div className="hero">
           <img src="hero.png" alt=""></img>
           <div className="usernames">
