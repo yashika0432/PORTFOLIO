@@ -152,11 +152,7 @@
   .pj2style,
   .pj3style,
   .pj4style {
-    left: 50%;
-    top: auto;
-    position: relative;
-    margin-top: 2rem;
-    transform: translateX(-50%);
+    display: none;
   }
 }
 
