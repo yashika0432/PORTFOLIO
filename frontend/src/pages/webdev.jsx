@@ -1,4 +1,12 @@
 import "../style/webdev.css";
+import Folder from "../component/Folder";
+import paper1 from "../assets/paper1.png";
+import paper2 from "../assets/paper2.png";
+import paper3 from "../assets/paper3.png";
+import paper4 from "../assets/paper4.png";
+import paper5 from "../assets/paper5.png";
+import paper6 from "../assets/paper6.png";
+import paper7 from "../assets/paper7.png";
 
 function Webdevelopment() {
   return (
@@ -19,9 +27,18 @@ function Webdevelopment() {
               same. This website is to facilitate the the process of accessing
               the same services and contains the color palette that do not
               disturb the one having autism.<br></br> For better visuals click
-              the folder.
+              the folder.(If you are using mobile, long click on the images)
             </p>
-            <div className="folderimg"></div>
+            <div className="folderimg">
+              <div style={{ position: "absolute", right: "15%" }}>
+                <Folder
+                  size={3}
+                  className="custom-folder"
+                  color="#FFE800"
+                  items={[paper1, paper2, paper3]}
+                />
+              </div>
+            </div>
           </div>
           <div className="pj1style">
             <img src="/STYLE1.png" alt=""></img>
@@ -36,9 +53,19 @@ function Webdevelopment() {
               aesthetic visuals and numerous options. Here you can stream your
               favorite visuals while being in the spooky/horror theme. Dark mode
               of the web makes much more sense with the content.<br></br>For
-              better visuals click the folder.
+              better visuals click the folder.(If you are using mobile, long
+              click on the images)
             </p>
-            <div className="folderimg"></div>
+            <div className="folderimg">
+              <div style={{ position: "absolute", right: "15%" }}>
+                <Folder
+                  size={3}
+                  className="custom-folder"
+                  color="#FFE800"
+                  items={[paper4, paper5, paper6]}
+                />
+              </div>
+            </div>
           </div>
           <div className="pj2style">
             <img src="/STYLE2.png" alt=""></img>
@@ -54,9 +81,18 @@ function Webdevelopment() {
               steps. Unlike other websites the reply and hiring rate on this is
               much better. For those with real talent and struggling for a job,
               this site might do the work.<br></br> For better visuals click the
-              folder
+              folder.(If you are using mobile, long click on the images)
             </p>
-            <div className="folderimg"></div>
+            <div className="folderimg">
+              <div style={{ position: "absolute", right: "15%" }}>
+                <Folder
+                  size={3}
+                  className="custom-folder"
+                  color="#FFE800"
+                  items={[paper7]}
+                />
+              </div>
+            </div>
           </div>
           <div className="pj3style">
             <img src="/STYLE3.png" alt=""></img>
@@ -73,7 +109,9 @@ function Webdevelopment() {
               lets you manage your gym streak by keeping you engaged through the
               process.<br></br>For better visuals click the folder
             </p>
-            <div className="folderimg"></div>
+            <div className="folderimg">
+              <div style={{ position: "absolute", right: "15%" }}></div>
+            </div>
           </div>
           <div className="pj4style">
             <img src="/STYLE4.png" alt=""></img>

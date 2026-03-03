@@ -32,23 +32,23 @@ function Work() {
           <div className="webdev">
             <h2>Web Dev</h2>
             <div className="websites">
-              <div className="card webone">
+              <div className="webcard webone">
                 <p style={{ color: "white" }}>001.</p>
                 <p style={{ color: "black" }}>Wanderlust</p>
               </div>
-              <div className="card webtwo">
+              <div className="webcard webtwo">
                 <p style={{ color: "white" }}>002.</p>
                 <p style={{ color: "black" }}>Zerodha</p>
               </div>
-              <div className="card webthree">
+              <div className="webcard webthree">
                 <p style={{ color: "white" }}>003.</p>
                 <p style={{ color: "black" }}>VideoCall</p>
               </div>
-              <div className="card webfour">
+              <div className="webcard webfour">
                 <p style={{ color: "white" }}>004.</p>
                 <p style={{ color: "black" }}>TaskLog</p>
               </div>
-              <div className="card webfive">
+              <div className="webcard webfive">
                 <p style={{ color: "white" }}>005.</p>
                 <p style={{ color: "black" }}>Simon Game</p>
               </div>
