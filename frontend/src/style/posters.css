@@ -21,6 +21,7 @@
 }
 .tabposters img {
   height: 1.5rem;
+  padding: 3px;
   margin-right: 15px;
 }
 
@@ -30,35 +31,35 @@
 .iconDialog {
   width: 6%;
   z-index: 1;
-  left: 15%;
+  left: 7%;
   top: 30%;
 }
 .boxes {
-  top: 70%;
+  top: 90%;
   left: 5%;
 }
 .hoverhere {
-  height: 150px;
+  height: 100px;
 
   z-index: 1;
   left: 25%;
   top: 25%;
 }
 .pen {
-  right: 10%;
+  right: 0%;
   z-index: 1;
-  top: 45%;
+  top: 55%;
 }
 .properties-panel {
   position: absolute;
   top: 90px;
-  right: 10%;
+  right: 0%;
   z-index: 1000;
 }
 
 .splitWrapper {
   position: relative;
-  width: 1200px;
+  width: 1000px;
 
   height: auto;
   min-height: unset;
