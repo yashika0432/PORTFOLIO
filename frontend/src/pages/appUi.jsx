@@ -2,7 +2,7 @@ import "../style/appui.css";
 
 function AppDev() {
   return (
-    <div>
+    <div className="appworkspace">
       <div className="tabappui">
         <p>App UI/UX</p>
         <img src="/tab icon.png" alt="tab icon" />

@@ -46,5 +46,57 @@
   font-size: 24px;
 }
 .allAppui img {
-  margin-top: 60px;
+  margin: 0 auto;
+}
+
+/* mobile adjustments */
+@media (max-width: 768px) {
+  .appworkspace {
+    width: 100%;
+    padding: 0;
+
+    overflow-x: hidden;
+    text-align: justify;
+  }
+  .tabappui {
+    align-items: flex-start;
+    padding: 0;
+  }
+  .tabappui p {
+    font-size: 11px;
+  }
+  .tabappui img {
+    margin: 3px 2px;
+    height: 1rem;
+  }
+  .allAppui {
+    gap: 50px;
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+  .allAppui h1 {
+    font-size: 70px;
+  }
+  .allAppui h2 {
+    font-size: 48px;
+    margin-top: -20px;
+  }
+  .allAppui p {
+    font-size: 8px;
+  }
+  .allAppui img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .allAppui h1 {
+    font-size: 56px;
+  }
+  .allAppui h2 {
+    font-size: 40px;
+  }
+  .allAppui p {
+    font-size: 18px;
+  }
 }
