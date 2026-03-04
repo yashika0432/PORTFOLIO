@@ -4,6 +4,7 @@ import Navbar from "../components/navbar";
 import Me from "./me";
 import Work from "./work";
 import Contact from "./contact";
+import hero from "../assets/HERO.png";
 
 export default function Landing() {
   return (
@@ -15,7 +16,7 @@ export default function Landing() {
         <Navbar />
 
         <div className="hero">
-          <img src="hero.png" alt=""></img>
+          <img src={hero} alt=""></img>
           <div className="usernames">
             <div className="behance">
               <a href="https://www.behance.net/yashikasharma68" target="_blank">
