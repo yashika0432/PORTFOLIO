@@ -1,10 +1,11 @@
 import "./navbar.css";
+import Vector from "../assets/Vector.png";
 
 export default function Navbar() {
   return (
     <div className="mainNav">
       <div className="navbar">
-        <img src="/vector.png" alt=""></img>
+        <img src={Vector} alt=""></img>
         <h2>|</h2>
         <p
           style={{
