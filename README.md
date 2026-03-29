@@ -13,3 +13,7 @@ This portfolio is designed to present my:
 - 📱 Responsive design skills
 
 It focuses on clean design, usability, and performance.
+
+---
+
+## ✨ Features
