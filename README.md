@@ -27,3 +27,6 @@ It focuses on clean design, usability, and performance.
 ---
 
 ## 🛠️ Tech Stack
+- HTML5
+- CSS3
+- JavaScript (ES6+)
