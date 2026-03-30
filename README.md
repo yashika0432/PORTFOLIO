@@ -23,3 +23,7 @@ It focuses on clean design, usability, and performance.
 - 📱 Fully responsive design
 - ⚡ Smooth interactions and animations
 - 📬 Contact section
+
+---
+
+## 🛠️ Tech Stack
