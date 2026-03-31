@@ -34,5 +34,8 @@ It focuses on clean design, usability, and performance.
 ---
 
 ## 🚀 Live Demo
-
 ```https://portfolio-duin.onrender.com/```
+
+---
+
+## 💡 Highlights
