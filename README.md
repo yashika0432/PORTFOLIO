@@ -47,3 +47,4 @@ It focuses on clean design, usability, and performance.
 ---
 
 ## 🎯 Purpose
+This portfolio was built to:
