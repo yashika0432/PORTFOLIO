@@ -55,3 +55,6 @@ It focuses on clean design, usability, and performance.
 ---
 
 ## 📬 Contact
+Feel free to connect with me:
+- LinkedIn: (add link)
+- Email: (add email)
