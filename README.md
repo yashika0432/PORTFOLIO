@@ -47,4 +47,7 @@ It focuses on clean design, usability, and performance.
 ---
 
 ## 🎯 Purpose
-This portfolio was built to:
+- This portfolio was built to:
+- Showcase my skills in UI/UX and frontend development
+- Demonstrate real-world project work
+- Serve as a professional profile for recruiters and collaborators
