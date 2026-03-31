@@ -51,3 +51,7 @@ It focuses on clean design, usability, and performance.
 - Showcase my skills in UI/UX and frontend development
 - Demonstrate real-world project work
 - Serve as a professional profile for recruiters and collaborators
+
+---
+
+## 📬 Contact
