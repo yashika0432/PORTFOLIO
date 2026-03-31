@@ -43,3 +43,7 @@ It focuses on clean design, usability, and performance.
 - Clean and modern UI
 - Organized and scalable code structure
 - Optimized for performance and accessibility
+
+---
+
+## 🎯 Purpose
