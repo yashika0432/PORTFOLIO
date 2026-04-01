@@ -18,8 +18,8 @@ It focuses on clean design, usability, and performance.
 
 ## ✨ Features
 - 🧑‍💼 Personal introduction section
-- 📁 Project showcase with descriptions
-- 🎨 UI/UX design highlights
+- 📁 Project showcase with descriptions, git repo
+- 🎨 UI/UX design highlights, 
 - 📱 Fully responsive design
 - ⚡ Smooth interactions and animations
 - 📬 Contact section
