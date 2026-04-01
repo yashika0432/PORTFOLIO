@@ -19,7 +19,7 @@ It focuses on clean design, usability, and performance.
 ## ✨ Features
 - 🧑‍💼 Personal introduction section
 - 📁 Project showcase with descriptions, git repo
-- 🎨 UI/UX design highlights, 
+- 🎨 UI/UX design highlights, webdev projects
 - 📱 Fully responsive design
 - ⚡ Smooth interactions and animations
 - 📬 Contact section
