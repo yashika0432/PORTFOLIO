@@ -56,5 +56,5 @@ It focuses on clean design, usability, and performance.
 
 ## 📬 Contact
 Feel free to connect with me:
-- LinkedIn: (add link)
+- LinkedIn: www.linkedin.com/in/yashika-sharma-81110a291
 - Email: Yashika9654@gmail.com
